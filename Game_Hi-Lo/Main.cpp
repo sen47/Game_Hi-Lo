@@ -53,13 +53,14 @@ int main()
 			if (playAgain == 'y' || playAgain == 'Y' || playAgain == 'n' || playAgain == 'N')
 				break;
 		}
+		
+		system("cls");
+
 		if (playAgain == 'n' || playAgain == 'N')
 			break;
-
-		system("cls");
 	}
 
-	std::cout << "\nGood bye!" << std::endl;
+	std::cout << "Thank you for playing!\nGood bye =*" << std::endl;
 
 	return 0;
 }
